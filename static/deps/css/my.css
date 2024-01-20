@@ -1,0 +1,83 @@
+:root {
+  --main-color: #e6e6fa;
+  --background-color: #e8e8e8;
+  --font-family: 'Arial', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-image: url(/static/deps/images/bg.png);
+  /* background-color: var(--background-color); */
+  color: var(--main-color);
+  font-family: var(--font-family);
+}
+
+.my_btn {
+    color: var(--main-color);
+    background-color:rgb(46, 46, 46);
+}
+
+:root {
+    --main-color: #e6e6fa;
+    --background-color: #e8e8e8;
+    --font-family: 'Arial', sans-serif;
+  }
+  
+  *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  body {
+    background-color: var(--background-color);
+    color: var(--main-color);
+    font-family: var(--font-family);
+  }
+  
+  .my_btn {
+      color: var(--main-color);
+      background-color:rgb(46, 46, 46);
+  }
+  
+
+/* .my_card {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgba(48, 22, 64, 0.436);
+} */
+.container {
+  margin-top: 40px;
+}
+
+.my_cards{
+  background-color: rgba(7, 1, 1, 0);
+
+  height: 16rem;
+  width: 20rem;
+  padding: 0px;
+  margin: 5px;
+}
+  
+h1 {
+    color: black;
+}
+
+.bottom-panel {
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* Растягиваем панель на всю ширину экрана */
+  background-color: #120f0f8e;
+  padding: 10px;
+  text-align: center;
+  /* border-top: 1px solid #000000;  */
+}
+
