@@ -44,38 +44,57 @@ body {
   }
   
 
-/* .my_card {
-    display: inline-block;
-    vertical-align: top;
-    width: 300px;
-    height: 200px;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 10px;
-    background-color: rgba(48, 22, 64, 0.436);
-} */
 .container {
   margin-top: 40px;
 }
 
 .my_cards{
-  background-color: rgba(7, 1, 1, 0);
-
+  background-color: rgb(28, 28, 28);
+  color: rgb(202, 196, 196);
   height: 16rem;
   width: 20rem;
   padding: 0px;
   margin: 5px;
 }
-  
+
+svg {
+  width: 25px;
+  height: 25px;
+  fill: rgb(255, 240, 240);
+}
+img {
+  width: 25px;
+  height: 25px;
+  fill: rgb(255, 240, 240);
+  color: #0000ff;
+}
+
 h1 {
     color: black;
 }
 
+a {
+  text-decoration: none;
+}
+
+a .iconify{
+  height: 30px;
+  width: 30px;
+  color: rgb(92, 59, 200);
+
+  background-color: #3021b552;
+  border-radius: 6px;
+  margin: 5px;
+}
+
+li{
+  padding: 12px;
+}
 .bottom-panel {
   position: fixed;
   bottom: 0;
   width: 100%; /* Растягиваем панель на всю ширину экрана */
-  background-color: #120f0f8e;
+  background-color: #2922221b;
   padding: 10px;
   text-align: center;
   /* border-top: 1px solid #000000;  */
