@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{%load static%}
+{% block title %}
+    <title>Home</title>
+{% endblock title %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+      {% for i in indx %}
+        
+      <div class="card my_cards">
+          <div class="card-header">Header
+        </div>
+            
+          <div class="card-body">
+
+            <h5 class="card-title">Dark card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <li  class="text-center my_li" style="list-style-type:none;">
+            <a href="">
+              <span class="iconify" data-icon="mi:link-alt"></span>
+            </a>
+            <a href="">
+              <span class="iconify" data-icon="mi:edit-alt"></span>
+            </a>
+            <a href="">
+            <span class="iconify" data-icon="mi:options-horizontal"></span>
+            </a>
+          </li>
+      
+      </div>
+      {% endfor %}
+
+    </div>
+</div>
+
+<div class="bottom-panel">
+    <button type="button" class="btn btn-dark">Dark</button>
+
+</div>
+<script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+{% endblock content %}

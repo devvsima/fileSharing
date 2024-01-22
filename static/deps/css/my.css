@@ -1,8 +1,9 @@
 :root {
-  --main-color: #e6e6fa;
-  --background-color: #e8e8e8;
+  --main-color: rgb(92, 59, 200);
+  --background-color: #3021b552;
   --font-family: 'Arial', sans-serif;
 }
+
 
 *{
     box-sizing: border-box;
@@ -11,7 +12,9 @@
 }
 body {
   background-image: url(/static/deps/images/bg.png);
-  /* background-color: var(--background-color); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: var(--main-color);
   font-family: var(--font-family);
 }
@@ -20,29 +23,6 @@ body {
     color: var(--main-color);
     background-color:rgb(46, 46, 46);
 }
-
-:root {
-    --main-color: #e6e6fa;
-    --background-color: #e8e8e8;
-    --font-family: 'Arial', sans-serif;
-  }
-  
-  *{
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-  }
-  body {
-    background-color: var(--background-color);
-    color: var(--main-color);
-    font-family: var(--font-family);
-  }
-  
-  .my_btn {
-      color: var(--main-color);
-      background-color:rgb(46, 46, 46);
-  }
-  
 
 .container {
   margin-top: 40px;
@@ -57,18 +37,6 @@ body {
   margin: 5px;
 }
 
-svg {
-  width: 25px;
-  height: 25px;
-  fill: rgb(255, 240, 240);
-}
-img {
-  width: 25px;
-  height: 25px;
-  fill: rgb(255, 240, 240);
-  color: #0000ff;
-}
-
 h1 {
     color: black;
 }
@@ -80,9 +48,8 @@ a {
 a .iconify{
   height: 30px;
   width: 30px;
-  color: rgb(92, 59, 200);
-
-  background-color: #3021b552;
+  color:  var(--main-color);
+  background-color: var(--background-color);
   border-radius: 6px;
   margin: 5px;
 }
