@@ -67,3 +67,15 @@ li{
   /* border-top: 1px solid #000000;  */
 }
 
+.login_container  {
+  width: 600px;
+  height: 450px;
+  background-color:  rgb(28, 28, 28);
+  border-radius: 20px;
+  border-color: aliceblue;
+}
+
+.login_container  input{
+  width: 300px;
+  
+}

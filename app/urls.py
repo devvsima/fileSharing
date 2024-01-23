@@ -22,5 +22,5 @@ from .settings import DEBUG, MEDIA_URL, MEDIA_ROOT
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls', namespace='main')),
-    path('', include('users.urls', namespace='users')),
+    path('user/', include('users.urls', namespace='users')),
 ]
